@@ -1,10 +1,10 @@
 {
-  "AppId": "bellwright",
-  "AppName": "Bellwright Dedicated Server",
-  "AppDescription": "Dedicated server for Bellwright",
+  "Id": "bellwright",
+  "DisplayName": "Bellwright Dedicated Server",
+  "Description": "Dedicated server for Bellwright",
   "Author": "CommanderBC",
   "Version": "1.0.0",
-  "DefaultModule": "Generic",
-  "SupportedPlatforms": ["Linux"]
+  "Category": "Game Servers",
+  "SupportsDocker": false,
+  "Module": "Generic"
 }
-
