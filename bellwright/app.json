@@ -5,6 +5,5 @@
   "Author": "CommanderBC",
   "Version": "1.0.0",
   "Category": "Game Servers",
-  "SupportsDocker": false,
   "Module": "Generic"
 }
