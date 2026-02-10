@@ -1,8 +1,8 @@
 [GenericModule.Meta]
 GenericModule.Meta.AppConfigId=bellwright
 GenericModule.Meta.DisplayName=Bellwright Dedicated Server
-GenericModule.Meta.Description=Bellwright dedicated server (SteamCMD)
-GenericModule.Meta.DisplayImageSource=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1812450/header.jpg
+GenericModule.Meta.Description=Dedicated server for Bellwright
+GenericModule.Meta.DisplayImageSource=
 GenericModule.Meta.OS=Linux
 
 [Application]
