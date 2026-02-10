@@ -1,0 +1,10 @@
+{
+  "AppId": "bellwright",
+  "AppName": "Bellwright Dedicated Server",
+  "AppDescription": "Dedicated server for Bellwright",
+  "Author": "CommanderBC",
+  "Version": "1.0.0",
+  "DefaultModule": "Generic",
+  "SupportedPlatforms": ["Linux"]
+}
+
