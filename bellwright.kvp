@@ -1,7 +1,14 @@
+[GenericModule.Meta]
+GenericModule.Meta.AppConfigId=bellwright
+GenericModule.Meta.DisplayName=Bellwright Dedicated Server
+GenericModule.Meta.Description=Bellwright dedicated server (SteamCMD)
+GenericModule.Meta.DisplayImageSource=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1812450/header.jpg
+GenericModule.Meta.OS=Linux
+
 [Application]
 Name=Bellwright Dedicated Server
 Description=Bellwright dedicated server (SteamCMD)
-Author=github
+Author=CommanderBC
 SupportsLinux=True
 SupportsWindows=False
 
@@ -14,7 +21,7 @@ InstallDir=serverfiles
 [Startup]
 Executable=./BellwrightServer.sh
 WorkingDirectory=serverfiles
-Arguments=-log -port={{GamePort}} -queryport={{QueryPort}} -maxplayers={{MaxPlayers}}
+Arguments=-log -port={{$GamePort}} -queryport={{$QueryPort}} -maxplayers={{$MaxPlayers}}
 StartupMode=Immediate
 ShutdownMode=Terminate
 
